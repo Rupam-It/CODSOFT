@@ -1,0 +1,136 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(34, 33, 47);
+    color: white;
+}
+/* -----------------------------  navbar ----------------------------- */
+.navbar{
+    display: flex;
+    color: white;
+    align-items: center;
+    column-gap: 30px;
+}
+
+#logo{
+height: 150px;
+width: 150px;
+border-radius: 100%;
+}
+.d-flex{
+    display: inherit;
+}
+.push-right{
+    margin-left: auto;
+ 
+}
+.push-left{
+    margin-right: auto;
+}
+.text{
+    font-size: 2.5rem;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text:hover{
+    background-color: orange;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: context-menu;
+}
+
+.btn-outline-success{
+    background-color: orangered;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    padding: 30px;
+    padding-left: 75px;
+    text-align: left;
+}
+.left h1{
+    font-size: 6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left h1 span{
+    color: orangered;
+}
+.left p{
+    padding-right: 50px;
+}
+.left button{
+    margin: auto;
+    /* margin-left: 63px; */
+    width: 200px;
+    height: 40px;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 400px;
+    width: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content .login-heading{
+    text-align: center;
+    background-color: rgb(255 255 255 / 22%);
+    color: orange;
+    height: 39px;
+    font-size: 2.3rem;
+    font-family: monospace;
+    margin-bottom: 31px;
+}
+.content input{
+    height: 40px;
+    margin: 10px;
+    /* margin-bottom: 10px; */
+    background-color: #0000008a;
+    color: white;
+}
+.content input::placeholder {
+    color: rgba(255, 255, 255, 0.501)
+}
+.content button{
+    width: 250px;
+    margin: auto;
+    border-radius: 25px;
+}
+.content span{
+    color: #da3e3e;
+    font-size: 3rem;
+}
+.content  p{
+    font-size: 1.5rem;
+}
+.icon a{
+    padding: 10px;
+    font-size: 25px;
+    font-size: 2rem;
+}
+
+footer{
+ color:#ffc000;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ bottom: -120px;
+}
